@@ -246,8 +246,8 @@ aria-label="$t(MicrocopyMessages.searchTitle) heb ik veranderd naar  aria-label=
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - 
-  - punt 2
+  - video doet het niet op github
+  - super veel error, omdat k de svg's er dubbel in het staan. 1x in de navigatie die altijd zichtbaar is en 1x al het hamburger menu is uitgeklapt. hoe los ik dit op.
   - nog een punt
   - ...
 
