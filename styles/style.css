@@ -1,0 +1,658 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+
+*{
+	margin: 0;
+}
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text:#111;
+	--color-background:#eee;
+}
+
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* jouw code */
+
+
+body{
+	max-width: 414px;
+}
+
+header{
+background-color: #A61B34;
+display: flex;
+justify-content: space-between;
+padding-bottom: 4em;
+}
+
+
+video{
+	width: 100%;
+	display: block;
+	object-fit: cover;
+	height: 45em;
+}
+
+h1{
+	font-family: Heinz;
+	font-size: 3em;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	color: white ;
+}
+
+h2{
+	font-family: Heinz;
+	font-size: 3em;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	color: white ;
+}
+
+h3{
+	font-family: "heinz";
+	display: flex;
+	justify-content: center;
+	font-size: 90%;
+	margin-bottom: 15px;
+}
+
+h4{
+	font-family: "IntroSemiBold";
+	display: flex;
+	justify-content: center;
+	font-size: 80%;
+}
+
+p{
+	font-family: Introregular;
+	font-size: 1em;
+	color: white;
+	text-align: center;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+/****************/
+/* Nav styling */
+/****************/
+
+nav{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	translate: -100%;
+	background-color: white;
+	z-index: 1;
+}
+
+nav svg:first-of-type{
+	position: absolute;
+	left: 0.5em;
+	top: 0.5em;
+	width: 2.5em;
+	padding: 0.5em;
+	color: black;
+	border-radius: 50%;
+	background-color:#FBF9F0;
+}
+
+
+nav svg:nth-of-type(2){
+	height: 3em;
+	position: absolute;
+	left: 6em;
+	top: 0.3em;
+	color: black;
+	width: 4em;
+}
+
+nav svg:nth-of-type(3){
+	width: 2.5em;
+	height: 2.5em;
+	position: absolute;
+	left: 20em;
+	top: 0.5em;
+	border-radius: 50%;
+	padding: 0.5em;
+	color: black;
+	background-color:#FBF9F0;
+}
+
+nav svg:nth-of-type(4){
+	background-color:#FBF9F0 ;
+	width: 2.5em;
+	height: 2.5em;
+	position: absolute;
+	right: 0.5em;
+	top: 0.5em;
+	padding: 0.5em;
+	border-radius: 50%;
+}
+
+nav ul{
+	list-style: none;
+	padding-top:5em ;
+}
+
+nav li{
+	margin-top: 2em;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: black;
+	font-family: IntroBold;
+	font-size: 2.5em;
+}
+
+nav.toonMenu{
+	translate: 0%;
+	transition: 0.3s;
+}
+
+nav h3:first-of-type{
+	font-family: IntroSemiBold;
+	margin-top: 20em;
+	margin-right: 22em;
+}
+
+nav svg:nth-of-type(5){
+	background-color: #FBF9F0 ;
+	border-radius: 50%;
+	margin-top: 1.5em;
+	margin-left: 0.5em;
+	width: 4em;
+	height: 4em;
+	padding: 1em;
+  }
+
+  nav svg:nth-of-type(6){
+	background-color: #FBF9F0 ;
+	border-radius: 50%;
+	width: 4em;
+	height: 4em;
+	padding: 1em;
+  }
+
+  nav svg:nth-of-type(7){
+	background-color: #FBF9F0 ;
+	border-radius: 50%;
+	width: 4em;
+	height: 4em;
+	padding: 1em;
+  }
+
+  nav svg:nth-of-type(8){
+	background-color: #FBF9F0 ;
+	border-radius: 50%;
+	width: 4em;
+	height: 4em;
+	padding: 1em;
+  }
+
+
+body.noScroll{
+	overflow-y: hidden;
+  }
+
+  /****************/
+/* Header styling */
+/****************/
+
+header{
+	display: flex;
+	justify-content: center;
+}
+
+header > svg:first-of-type{
+	position: absolute;
+	left: 0.5em;
+	top: 0.5em;
+	width: 2.5em;
+	padding: 0.5em;
+	color: white;
+	border-radius: 50%;
+	background-color: #8B2F33;
+	fill: #fff;
+}
+
+ header > svg:nth-of-type(2){
+	height: 3em;
+	position: absolute;
+	left: 6em;
+	top: 0.3em;
+	color: white;
+	width: 4em;
+}
+
+header > svg:nth-of-type(3){
+	width: 2.5em;
+	height: 2.5em;
+	position: absolute;
+	left: 20em;
+	top: 0.5em;
+	border-radius: 50%;
+	padding: 0.5em;
+	color: white;
+	background-color: #8B2F33;
+}
+
+header >  svg:nth-of-type(4){
+	width: 2.5em;
+	height: 2.5em;
+	position: absolute;
+	right: 0.5em;
+	top: 0.5em;
+	padding: 0.5em;
+	border-radius: 50%;
+	color: white;
+	background-color: #8B2F33;
+}
+
+
+/*********************/
+/* Section 1 styling */
+/*********************/
+
+section:nth-of-type(1) div:nth-of-type(1){
+	display: flex;
+	overflow-x: scroll;
+	
+}
+
+section:first-of-type{
+	background-color: #A6192E;
+}
+
+section:first-of-type article img{
+	width: 15em;
+	border-radius: 0.5em;
+	margin-left: 1em;
+}
+
+section:first-of-type div:nth-of-type(2){
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+section:first-of-type div:nth-of-type(2) img:nth-of-type(3){
+	width: 100%;
+	transform: scale(1.8) translateY(-45px) translateX(5px);
+}
+
+section:first-of-type div:nth-of-type(2) img:first-of-type{
+	width: 100%;
+	transform: scale(1.8) translateY(230px) translateX(5px);
+	margin-top: -15em;
+}
+
+section:first-of-type div:nth-of-type(2) img:nth-of-type(2){
+	width: 100%;
+	transform: scale(1.8) translateY(90px) translateX(5px);
+}
+
+div::-webkit-scrollbar{
+	display: none;
+}
+
+section:first-of-type svg:first-of-type{
+	border-radius: 50%;
+	width: 4em;
+	height: 4em;
+	background-color: rgba(255, 255, 255, 0.7);
+	display: flex;
+	position: absolute;
+	left: 20em;
+	top: 65em;
+	transform: rotate(90deg);
+}
+
+
+section:first-of-type svg:nth-of-type(2){
+	border-radius: 50%;
+	width: 4em;
+	height: 4em;
+	background-color: rgba(255, 255, 255, 0.7);
+	position: absolute;
+	left: 2em;
+	top: 65em;
+	transform: rotate(270deg);
+}
+
+/*********************/
+/* Section 2 styling */
+/*********************/
+
+section:nth-of-type(2){
+	background-color: #436C22;
+	padding-bottom: 10em;
+}
+
+section:nth-of-type(2) img{
+	width: 100%;
+}
+
+section:nth-of-type(2) article{
+	position: relative;
+}
+
+section:nth-of-type(2) a{
+	text-decoration: none;
+	list-style: none;
+	font-family: IntroBold;
+	color:#41591D ;
+	background-color: #FFB81D;
+	border-radius: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+	position: absolute;
+	left: 9em;
+	bottom: -5em;
+}
+
+
+/*********************/
+/* Section 3 styling */
+/*********************/
+
+section:nth-of-type(3) p{
+	color: #493004;
+}
+
+section:nth-of-type(3) h2{
+	color: #493004;
+}
+
+section:nth-of-type(3){
+	background-color: #FFB81D;
+	padding-bottom: 10em;
+}
+
+section:nth-of-type(3) img{
+	width: 100%;
+}
+
+section:nth-of-type(3) article{
+	position: relative;
+}
+
+section:nth-of-type(3) a{
+	text-decoration: none;
+	list-style: none;
+	font-family: IntroBold;
+	color:#FFCB5D;
+	background-color: #A6192E;
+	border-radius: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+	position: absolute;
+	left: 6em;
+	bottom: -5em;
+}
+
+section:nth-of-type(3) img:nth-of-type(2){
+	width: 20em;
+	position: relative;
+	left: 6em;
+	top: 1em;
+}
+
+
+/*********************/
+/* Section 4 styling */
+/*********************/
+
+section:nth-of-type(4){
+	background-color: #A6192E;
+	padding-bottom: 10em;
+}
+
+section:nth-of-type(4) img{
+	width: 100%;
+}
+
+section:nth-of-type(4) article{
+	position: relative;
+}
+
+section:nth-of-type(4) a{
+	text-decoration: none;
+	list-style: none;
+	font-family: IntroBold;
+	color:#A6192E;
+	background-color: white;
+	border-radius: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+	position: absolute;
+	left: 9em;
+	bottom: -5em;
+}
+
+
+/*********************/
+/* Footer styling */
+/*********************/
+
+footer:first-of-type section:first-of-type{
+	background-color: white;
+}
+
+footer a{
+	text-decoration: none;
+	color: #616161;
+	font-family: IntroSemiBold;
+}
+
+footer ul{
+	list-style:none;
+	padding-bottom: 2em;
+	margin-top: 1.5em;
+}
+
+footer ul li{
+	padding-bottom: 1em;
+}
+
+footer svg:first-of-type{
+	background-color: #FBF9F0 ;
+	border-radius: 50%;
+	width: 4em;
+	height: 4em;
+	padding: 1em;
+  }
+
+  footer svg{
+	background-color: #FBF9F0 ;
+	border-radius: 50%;
+	width: 4em;
+	height: 4em;
+	padding: 1em;
+	margin-left: 1em;
+	margin-bottom: 2em;
+  }
+
+  footer ul li:first-of-type{
+	color: #1D1D1D;
+	font-family: IntroSemiBold;
+  }
+
+
+
+/*********************/
+/* Fonts */
+/*********************/
+
+@font-face {
+	font-family:"Heinz" ;
+	src: url("https://cdn.fonts.net/kit/335655b0-0dd3-11ed-9831-02c6998740a0/HeinzLabelW05Regular/HeinzLabelW05Regular_normal_normal.woff2");
+}
+
+@font-face {
+	font-family:"Introregular" ;
+	src: url(https://cdn.fonts.net/kit/335655b0-0dd3-11ed-9831-02c6998740a0/Intro/IntroRegular_normal_normal.woff2);
+}
+
+@font-face {
+	font-family:"IntroSemiBold" ; 
+	src: url(https://cdn.fonts.net/kit/335655b0-0dd3-11ed-9831-02c6998740a0/Intro/IntroSemiBold_normal_normal.woff2);
+}
+ 
+@font-face {
+	font-family:"IntroBold" ;
+	src: url(https://cdn.fonts.net/kit/335655b0-0dd3-11ed-9831-02c6998740a0/Intro/IntroBold_normal_normal.woff2);
+}
+
+
+/*********************/
+/* pagina 2 styling */
+/*********************/
+
+.roodvlak{
+	padding-bottom: 7em;
+}
+
+.h1anders{
+	font-family: "IntroSemiBold";
+	font-size: 1em;
+	padding-top: 3em;
+	padding-bottom: 0.5em;
+}
+
+.knoprecept{
+	position: absolute;
+	text-decoration: none;
+	color: #A6192E;
+	background-color: white;
+	border-radius: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+	font-family: "IntroBold";
+	margin-top: 0.5em;
+	left: 7em;
+}
+
+.filteren{
+	background-color: #FBF9F0;
+	padding-bottom: 1.5em;
+	padding-top: 1.5em;
+	margin: 0.5em;
+}
+
+.h2anders{
+	font-family: "IntroSemiBold";
+	color: black;
+	font-size:1.2em;
+}
+
+.ulstyle{
+	list-style: none;
+	font-size: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 1em;
+	padding-left: 0;
+	justify-content: center;
+	font-family: IntroRegular;
+}
+
+.ulstyle li{
+	margin-left: 0.5em;
+}
+
+.foto{
+	display: block;
+	width: 100%;
+}
+
+.receptenpagina section:nth-of-type(n+2){
+	background-color: white;
+}
+
+.receptenpagina section:nth-of-type(3){
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	gap: 1px;
+}
+
+.receptenpagina section:nth-of-type(3) img{
+	object-fit: cover;
+	width: 190px;
+	height: 250px;
+	margin: 0.5em;
+}
+
+.h3tekst{
+	font-family: Introregular;
+	font-size: 0.9em;
+	color: black;
+	margin-left: 1em;
+	margin-right: 1em;
+	justify-content: space-between;
+	padding-top: 2em;
+}
+
+
+section:nth-of-type(2) svg{
+	background-color: #FBF9F0 ;
+	position: absolute;
+	left: 7.5em;
+	top: 1.5em;
+}
+
+section.werk{
+	padding-bottom: 0em;
+}
+
+button{
+	background-color:#A6192E;
+	border-color: #A6192E;
+	box-shadow: none;
+	color: white;
+	position: absolute;
+	border-radius: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+	font-family: "IntroBold";
+	left: 10em;
+	width: 10em;
+}
+
+
+ 
+
+
+
